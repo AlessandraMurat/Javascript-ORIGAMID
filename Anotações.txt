@@ -1,0 +1,164 @@
+================ Variáveis ===================
+
+São responsáveis por guardar dados na memória inicia com a palavra, deste modo evitamos a repetições nas declarações  
+
+var 
+let
+const 
+
+É possível mudar os valores atribuidos a varáveis declaradas com var e let. Porém não é possível modificar valores das declaradas com const;
+
+================ Tipos de variáveis ===================
+
+String;
+Podemos somar uam string e assim concatenar as palavras
+
+Number;
+Boolen;
+Undefined;
+Null;
+Symbol;
+Object
+
+
+
+Para saber qual o tipo da variável, usamos "typeof"
+
+
+Condicionais If e Else 
+Verifivcar se uma expressão é verdadeira  com is, caso contrário o else será ativado
+
+E temos o else if qque caso o if seja falso ele verifica o else if
+
+
+============== Truthy e Falsy ==============
+
+Existem valores que retornam true e outros que retornam false quando verificados em uma expressão booleana
+
+Falsy
+if(false)
+if(0)
+if(NaN)
+if(null)
+if(undefined)
+if('')
+
+Truthy
+if(true)
+if(1)
+if(' ')
+if('Alessandra')
+if(-5)
+if({})
+
+============== Operador lógico de negação ==============
+
+O operador !, nega uma operação booleana, ou seja, !true é igual a false 
+
+E podemos utilizar !! para verificar se uma expressão é truty ou false
+
+============== Operadores de comparação ==============
+
+Vão sempre retornar uma valor booleano 
+
+10 > 5 = true 
+5 > 10 = false
+20 < 10 = false
+10 <= 10 = true
+10 >=11 = false
+
+Além disso temos o == que faz uma comparação não tão estrita e o === faz uma comparação estrita, ou seja, o tipo de dado deve ser o mesmo quando usamos ===
+
+10 == '10' = true
+10 == 10 = true
+10 === '10' = false
+10 === 10 = true
+10 != 15 = true
+10 != '10' = false
+10 !== '10' = true
+
+============== Operadores Lógicos ==============
+
+→ &&
+
+Compara se uma expressão e a outra é verdadeira 
+
+Se ambos os valores forem true ele irá retornar o útimo valor verificado. Se algum falor for false ele irá retornar o mesmo e não irá continuar a verficar os próximos 
+
+true && true = true 
+true && false = false
+false && true = false
+'gato' && 'cão' = cão 
+(5-5) && 5+5 = 0
+'Gato' && false = false 
+(5>= 5) && (3< 6) = true 
+
+→ || 
+
+Compara se uma expressão ou outra é verdadeira, ou seja ele precisa que somente um seja verdadeiro para retornar true 
+
+Retorna o primeiro valor true que encontrar 
+
+true || true = true 
+true || false = true
+false || true = true
+'gato' || 'cão' = gato
+(5-5) || 5+5 = 10
+'Gato' || false = gato
+(5>= 5) || (3< 6) = true 
+
+→ Switch
+
+Com o switch você pode verificar se uma variável é igual à diferentes valores utilizando o case> caso ela seja igual, voce pode fazer alguma coisa, utilizar a palvra chave break; para cancelar a continuação. O valor de default ocorrerá caso nenhuma das anteriores sejam verdadeira 
+
+============== Funcões ==============
+
+
+Bloco de código que pode ser executado e reutilizado. Valores podem ser passados por uma função e a mesma retorna outro valor
+
+→ Parâmetro e Argumento
+
+Ao citar uma função voce pode definir parametros
+AO executar uma função voce pode passar argumentos
+
+Separar por virgula cada parâmetro. Você pode definir mais de um parâmetroou nenhum
+
+
+→ Parenteses executa função
+
+Se apenas definimos a função com a function e não executamos a mesma, nada que estiver dentro dela irá acontecer
+
+
+→ Funções podem ser argumentos 
+
+Chamadas de callback, geralmente são funções que ocorrem após algum evento
+
+Quando não definimos o return ele irá retornar undefined. O codigo interno da função é executado notmalmente, independente de existir valor de return ou não.
+
+
+→ Podem ou não retornar um valor 
+
+Quando não definimos a return, ele irá retornaer undefined. O código interno da função é executado normalmente, independente de existir valor de return ou não.
+
+
+→ Valores retornados 
+
+Uma função pode retornar qualquer tipo de dado até outras funções
+
+Cuidado, retornar diferentes tipos de dados na messma função não é uma boa prática
+
+→ Escopo
+
+Varáveis e funções definidas dentro de um bloco {}, não são visivéis fora dele
+
+→ Escopo Léxico
+
+Funções conseguem acessar variáveis que foram criadas no contexto pai 
+
+→ Hoisting 
+
+Antes de executar uma função, o JS 'move' todas as funções declaradas para a memória 
+
+
+
+
