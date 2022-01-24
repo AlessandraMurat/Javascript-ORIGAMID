@@ -238,10 +238,23 @@ O loop irá parar caso encontre o break
 
 
 
+============== Atribuição e Ternário =============
+
+→ Atribuição
+
+usamos para abreviar operações 
 
 
+→ Ternário 
+
+Abreviação de condicionais com if e else 
+
+Geralmente utilizado quando precisamos atribuir um valor para uma variável dependendo de uma condição
 
 
+→ If Abreviado 
+
+Não é necessário abrir e fechar as chaves {} quando retornamos apenas uma linha de código
 
 
 
