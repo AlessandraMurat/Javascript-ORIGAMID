@@ -159,6 +159,87 @@ Funções conseguem acessar variáveis que foram criadas no contexto pai
 
 Antes de executar uma função, o JS 'move' todas as funções declaradas para a memória 
 
+============== Objetos ==============
+
+
+Conjunto de variáveis e funções, que são chamadas de propriedades e métodos 
+
+Propriedades e métodos consistem em nome (chave) e valor
+
+→ Métodos
+
+É uma propriedade que possui uma função no local do seu valor
+
+
+→ Organizar código
+
+Objetos servem para organizar o código em pequenas partes reutilizáveis 
+
+Math é um objeto 
+
+→ Dot notation Get 
+
+Acesse propriedades de um objeto utilizando o ponto
+
+→ Dot notation Set 
+
+Substitua o valor de uma propriedade utilizando  .  e o = após o nome da mesma 
+
+→ Adicionar Propriedades e Métodos
+
+Basta adicionar um novo nome e definir o valor 
+
+============== Tudo é Objeto =============
+
+Strings, numeros, Boolean, objetos e outros, possuem propiedades e métodos. Por isso são objetos
+Uma string herda propriedades 
+
+→ String
+
+Uma string herda propriedades e métodos ddo construtor String()
+
+→ Números 
+
+Por um breve momento o número é envolvido em um Objeto (coerção), temos acesso assim as suas propriedades e métodos
+
+→ Elementos do DOM 
+
+Praticamente todos os efeitos co JS são feitos utilizando propriedades e métodos de objetos do DOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
