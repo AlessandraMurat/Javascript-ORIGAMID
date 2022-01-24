@@ -207,17 +207,34 @@ Por um breve momento o número é envolvido em um Objeto (coerção), temos aces
 Praticamente todos os efeitos co JS são feitos utilizando propriedades e métodos de objetos do DOM
 
 
+============== Array e Loop =============
+
+→ Array
+
+É um grupo de valores geralmente relacionados. Servem para guardarmos diferentes valores em uma única varável
+
+Acesse um elemento da array utilizando [n]
 
 
+→ Métodos e propriedades de uma Array
+
+As mais conhecidas são: pop, push, map, reduce, forEach, length
 
 
+→ For loop 
+
+Fazem algo repetidamento até que uma condição seja atingida
+
+O for loop possui 3 partes: ínicio, condição e incremento 
+
+→ Break 
+
+O loop irá parar caso encontre o break 
 
 
+→ forEach
 
-
-
-
-
+É um método que executa uma função para cada item da array é uam forma mais simples de utilizarmos um loop com arrays ou (array-like)
 
 
 
