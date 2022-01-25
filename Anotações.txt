@@ -300,3 +300,22 @@ Mantém o escopo no bloco, impede a redeclaraçaõ e impede a modificação do v
 → let 
 
 Mantém o escopo no bloco, impede a redeclaração, mas permite a modificação do valor da variável
+
+
+============== O que é o DOM =============
+
+→ Document Object Model (DOM)
+
+É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, o estilo e conteúdo destes documentos.
+
+Ao inspencionar elementos com o chrome, você está vendo a representação oficial do DOM.
+
+→ Window e Document 
+
+São os objetos principais do DOM, boa parte da manipulação é feita através dos seus métodos e propriedades
+
+window é o objeto global, por isso não precisamos chamar ele na frente dos métodos e propiedades 
+
+→ Node 
+
+Toda tag html é representada pelo objecto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node
