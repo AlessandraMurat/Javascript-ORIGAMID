@@ -302,7 +302,7 @@ Mantém o escopo no bloco, impede a redeclaraçaõ e impede a modificação do v
 Mantém o escopo no bloco, impede a redeclaração, mas permite a modificação do valor da variável
 
 
-============== O que é o DOM =============
+============================ O que é o DOM ===========================
 
 → Document Object Model (DOM)
 
@@ -319,3 +319,33 @@ window é o objeto global, por isso não precisamos chamar ele na frente dos mé
 → Node 
 
 Toda tag html é representada pelo objecto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node
+
+============================ Seleção de Elementos ===========================
+
+→ ID
+
+getElementById seleciona e retorna elementos do DOM 
+
+→ Classe e tag
+
+getElementsByClassName e getElementsByTagName, selecionam e retornam uma lista de elementos do DOM. A lista retornada está ao vivo, significa que se elementos forem adicionados, ela será automaticamente atualizada.
+
+→ Seletor Geral Único 
+
+querySelector retorna o primeiro elemento que combinar com o seu seletor Classe
+
+→ Seletor Geral Lista 
+
+querySelectorAll retorna todos os elementos compatíveis com o seletor CSS em uma NodeLifa-stack
+
+Diferente do getElementsByClassNam, a lista aqui é estática 
+
+→ HtmlCollection vc NodeList 
+
+A diferença está nos métodos e propriedades de ambas. Além disso a NodeList retornada com querySelector é estática 
+
+→ Array-like
+
+HTMLCollection e Nodelist são array-like, parecem uma array mas não são.O método de Array forEach() por exemplo existe apenas em NodeList
+
+É possível transformar array-like em uma array real, utilizando o método Array.from(gridSection)
