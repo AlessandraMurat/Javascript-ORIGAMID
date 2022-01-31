@@ -373,3 +373,24 @@ Sintaxe curta em relação a function expression. Basta remover a palavra chave 
 → Return 
 
 É possível omitir as chaves {} para uma função que retorna uma linha 
+
+
+============================ Classes e Atributos ===========================
+
+→ ClassList
+
+Retorna uma lista com as classes do elemento. Permite adicionar, remover e verificar se contém.
+
+→ Atributos (Attributes)
+
+Retorna uma array-like com os atributos dos elementos 
+
+→ getAttribute e setAttribute
+
+Métodos que retornam ou definem de acordo com o atributo seleionado
+
+→ Read Only vs Writable
+
+Existem propriedades que não permitem a mudança de seus valores, essas são considerados Read Only, ou seja, apenas leitura.
+
+Lembre-se que podemos alterar o valor de uma propriedade objeto.propriedade = ''
