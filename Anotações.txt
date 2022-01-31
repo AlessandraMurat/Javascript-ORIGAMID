@@ -394,3 +394,23 @@ Métodos que retornam ou definem de acordo com o atributo seleionado
 Existem propriedades que não permitem a mudança de seus valores, essas são considerados Read Only, ou seja, apenas leitura.
 
 Lembre-se que podemos alterar o valor de uma propriedade objeto.propriedade = ''
+
+============================ Dimensões e Distâncias ===========================
+
+→ Height e Width
+
+Estas são proriedades e métodos dos Objetos Element e HTMLElement, a maioria delas são read Only
+
+→ OffsetTop e OffsetLeft
+
+OffsetTop é a distância entre o topo do elemento e o topo da página 
+
+OffsetLef é a distância entre o canto esquerdo do elemento e o canto esquerdo da página
+
+→ getBoundingClientRect()
+
+Método que retorna um objeto com valores de width, height, distâncias dos elementos entre outros
+
+→ matchMedia()
+
+Utilize um media-querie como no CSS para verificar a largura do browser 
