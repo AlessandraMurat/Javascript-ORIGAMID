@@ -458,3 +458,8 @@ Você pode adicionar atalhos para facilitar a navegação do seu site, através 
 O método addEventListener é adicionado a um único elemento, então é necessáario um loop entre os elementos de uma lista, para adicionarmos a cada um deles.
 
 
+→ outerHTML, innerHTML e innerText
+
+Propriedades que retornam uma string contendo o html ou texto. É possível atribuir um novo valor para as mesmas
+
+element.innerText = 'Novo texto'

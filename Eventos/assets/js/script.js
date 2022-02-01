@@ -91,3 +91,26 @@ imgs.forEach((img) => {
   img.addEventListener('click', imgSrc);
 });
 
+
+// Exemplo 9 outerHTML, innerHTML e innerText
+
+// const h1 = document.querySelector('h1')
+
+// console.log(h1.outerHTML); //todo o html do elemento
+// console.log(h1.innerText); // texto sem tags
+
+// console.log(h1.innerHTML) = '<p>Novo Texto</p>'; // a tag vai como texto
+// console.log(h1.innerText) = '<p>Novo Texto</p>'; // redenriza a tag
+
+const h2 = document.querySelector('h2');
+console.log(h2)
+
+
+h2.outerHTML; // todo o html do elemento
+h2.innerHTML; // html interno
+h2.innerText; // texto, sem tags
+
+
+h2.innerHTML = '<p>Texto</p>'; // a tag é renderizada
+
+h2.innerText = '<p>Texto</p>'; // a tag vai como texto
