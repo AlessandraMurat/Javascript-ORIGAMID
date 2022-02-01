@@ -414,3 +414,47 @@ Método que retorna um objeto com valores de width, height, distâncias dos elem
 → matchMedia()
 
 Utilize um media-querie como no CSS para verificar a largura do browser 
+
+============================ Eventos ===========================
+
+→ addEventListener
+
+Adiciona uma função ao elemento, esta chamada de callback, que será ativada assim que certo evento ocorrer neste momento
+
+O addEventListener possui três parâmetros, event, callback e options. Sendo que o último é opcional
+
+→ callback
+
+É boa prática separar a função de callback do addEventListener, ou seja, declarar a função ao invés de passar diretamente uma função anônima 
+
+→ Event 
+
+O primeiro parâmetro do callback é referente ao evento que ocorreu
+
+Geralmente utilizam e como nome do parâmetro
+
+→ event.preventDefault()
+
+Previne o comportamento padrão do evento no browser. No caso de um link externo por exemplo, irá prevenir que o link seja ativado.
+
+→ this 
+
+A palavra chave this é uma palavra especial do Javascript, que pode fazer referência a diferentes objetos dependendo do conteto. No caso de eventos, ela fará referência ao elemento que o addEventListener foi adicionado.
+
+Geralmente igual ao event.currenttarget
+
+→ Diferentess eventos
+
+Existem diversos eventos commo click, scroll, resize, keydown, keyup, mouseenter, e mais. Eventos podem ser adicionados a diferentes elementos, como o window e document também
+
+Lista de eventos: https://developer.mozilla.org/en-US/docs/Web/Events
+
+→ keyboard 
+
+Você pode adicionar atalhos para facilitar a navegação do seu site, através do evento do keyboard 
+
+→ forEach e Eventos
+
+O método addEventListener é adicionado a um único elemento, então é necessáario um loop entre os elementos de uma lista, para adicionarmos a cada um deles.
+
+
