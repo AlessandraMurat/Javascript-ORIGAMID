@@ -463,3 +463,32 @@ O método addEventListener é adicionado a um único elemento, então é necess�
 Propriedades que retornam uma string contendo o html ou texto. É possível atribuir um novo valor para as mesmas
 
 element.innerText = 'Novo texto'
+
+
+============================ Traversing e Manipulação ===========================
+
+
+→ Traversing
+
+Como navegar pelo DOM, utilizando suas propriedades e métodos 
+
+
+→ Element vs Node
+
+Element's representam um elemento HTML, ou seja, uma tag. Node representa um nó, e pode ser um elemento (Element), texto, comentário, quebra de linha, entre outros.
+
+Geralmente estamos atrás de um elemento e não de qualquer node em si,
+
+→ Manipulando Elementos 
+
+É possível mover elementos no DOM com métodos de Node
+
+→ Novos elementos
+
+Podemos criar novos elementos com o método createElement()
+
+→ Clonar elemento 
+
+Todo elemento selecionado é único. Para criarmos um novo elemento baseado no anterior, é necessário utilizar o método cloneNode()
+
+true sinaliza para incluir os filhos
